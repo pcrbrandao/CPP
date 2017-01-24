@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		00E21DDE1E37D26C00244D63 /* ConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E21DE11E37D26C00244D63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00E21DE81E37DBBE00244D63 /* conanfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conanfile.txt; sourceTree = "<group>"; };
+		00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = conanbuildinfo.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		00E21DD51E37D26C00244D63 = {
 			isa = PBXGroup;
 			children = (
+				00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */,
+				00E21DE81E37DBBE00244D63 /* conanfile.txt */,
 				00E21DE01E37D26C00244D63 /* ConsoleApp */,
 				00E21DDF1E37D26C00244D63 /* Products */,
 			);
@@ -129,6 +133,7 @@
 /* Begin XCBuildConfiguration section */
 		00E21DE31E37D26C00244D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -176,6 +181,7 @@
 		};
 		00E21DE41E37D26C00244D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -249,6 +255,7 @@
 				00E21DE71E37D26C00244D63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
