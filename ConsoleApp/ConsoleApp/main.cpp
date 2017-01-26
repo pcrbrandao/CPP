@@ -7,6 +7,7 @@
 #include "Poco/Timer.h"
 #include "Poco/Thread.h"
 #include "Poco/Stopwatch.h"
+#include <gtest/gtest.h>
 #include <iostream>
 
 using Poco::Timer;
