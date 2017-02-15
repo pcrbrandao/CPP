@@ -8,7 +8,6 @@
 
 [requires]
     Poco/1.Y.Z
-    gtest/1.Y.Z
 
 [options]
 
@@ -24,7 +23,6 @@
 [full_requires]
     OpenSSL/1.0.2i@lasote/stable:811d822905b54fc167634e916129401c4f86d1e5
     Poco/1.7.5@lasote/stable:ed6b7f756ffc0200e01bbc20f2020be357501569
-    gtest/1.7.0@lasote/stable:6930affda001dc28b1deb6ad58e56385dec517ad
     zlib/1.2.8@lasote/stable:dfaeed675a0f450dbc88fe8262d9d89b3e8509b0
 
 [full_options]
@@ -75,7 +73,6 @@
     Poco:force_openssl=True
     Poco:poco_unbundled=False
     Poco:shared=False
-    gtest:shared=True
     zlib:shared=False
 
 [scope]

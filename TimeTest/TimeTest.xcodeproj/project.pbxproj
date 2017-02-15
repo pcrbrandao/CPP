@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00904E4B1E3CEC2500C5A652 /* libncurses.5.4.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00904E4A1E3CEC2500C5A652 /* libncurses.5.4.tbd */; };
-		00E21DE21E37D26C00244D63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E21DE11E37D26C00244D63 /* main.cpp */; };
-		00EA93CF1E548ED100284F3B /* PocoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93CD1E548ED100284F3B /* PocoTest.cpp */; };
-		00EA93D21E54901F00284F3B /* Estudos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93D01E54901F00284F3B /* Estudos.cpp */; };
+		00EA93C41E54876700284F3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93C31E54876700284F3B /* main.cpp */; };
+		00EA93CC1E548D2B00284F3B /* estudos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93CB1E548D2B00284F3B /* estudos.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		00E21DDC1E37D26C00244D63 /* CopyFiles */ = {
+		00EA93BE1E54876700284F3B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,140 +24,117 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0052019D1E3CEB4B00FDD1B7 /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
-		00904E4A1E3CEC2500C5A652 /* libncurses.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.5.4.tbd; path = usr/lib/libncurses.5.4.tbd; sourceTree = SDKROOT; };
-		00E21DDE1E37D26C00244D63 /* ConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E21DE11E37D26C00244D63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		00E21DE81E37DBBE00244D63 /* conanfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conanfile.txt; sourceTree = "<group>"; };
-		00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = conanbuildinfo.xcconfig; sourceTree = "<group>"; };
-		00EA93CD1E548ED100284F3B /* PocoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PocoTest.cpp; sourceTree = "<group>"; };
-		00EA93CE1E548ED100284F3B /* PocoTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PocoTest.hpp; sourceTree = "<group>"; };
-		00EA93D01E54901F00284F3B /* Estudos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Estudos.cpp; sourceTree = "<group>"; };
-		00EA93D11E54901F00284F3B /* Estudos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Estudos.hpp; sourceTree = "<group>"; };
+		00EA93C01E54876700284F3B /* TimeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EA93C31E54876700284F3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00EA93CA1E548A2800284F3B /* estudos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = estudos.h; sourceTree = "<group>"; };
+		00EA93CB1E548D2B00284F3B /* estudos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = estudos.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E21DDB1E37D26C00244D63 /* Frameworks */ = {
+		00EA93BD1E54876700284F3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00904E4B1E3CEC2500C5A652 /* libncurses.5.4.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		007D4C811E3BE47E008B9330 /* Frameworks */ = {
+		00EA93B71E54876700284F3B = {
 			isa = PBXGroup;
 			children = (
-				00904E4A1E3CEC2500C5A652 /* libncurses.5.4.tbd */,
-				0052019D1E3CEB4B00FDD1B7 /* libncurses.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		00E21DD51E37D26C00244D63 = {
-			isa = PBXGroup;
-			children = (
-				00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */,
-				00E21DE81E37DBBE00244D63 /* conanfile.txt */,
-				00E21DE01E37D26C00244D63 /* ConsoleApp */,
-				00E21DDF1E37D26C00244D63 /* Products */,
-				007D4C811E3BE47E008B9330 /* Frameworks */,
+				00EA93C21E54876700284F3B /* TimeTest */,
+				00EA93C11E54876700284F3B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00E21DDF1E37D26C00244D63 /* Products */ = {
+		00EA93C11E54876700284F3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00E21DDE1E37D26C00244D63 /* ConsoleApp */,
+				00EA93C01E54876700284F3B /* TimeTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E21DE01E37D26C00244D63 /* ConsoleApp */ = {
+		00EA93C21E54876700284F3B /* TimeTest */ = {
 			isa = PBXGroup;
 			children = (
-				00E21DE11E37D26C00244D63 /* main.cpp */,
-				00EA93CD1E548ED100284F3B /* PocoTest.cpp */,
-				00EA93CE1E548ED100284F3B /* PocoTest.hpp */,
-				00EA93D01E54901F00284F3B /* Estudos.cpp */,
-				00EA93D11E54901F00284F3B /* Estudos.hpp */,
+				00EA93C31E54876700284F3B /* main.cpp */,
+				00EA93CB1E548D2B00284F3B /* estudos.cpp */,
+				00EA93CA1E548A2800284F3B /* estudos.h */,
 			);
-			path = ConsoleApp;
+			path = TimeTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E21DDD1E37D26C00244D63 /* ConsoleApp */ = {
+		00EA93BF1E54876700284F3B /* TimeTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E21DE51E37D26C00244D63 /* Build configuration list for PBXNativeTarget "ConsoleApp" */;
+			buildConfigurationList = 00EA93C71E54876700284F3B /* Build configuration list for PBXNativeTarget "TimeTest" */;
 			buildPhases = (
-				00E21DDA1E37D26C00244D63 /* Sources */,
-				00E21DDB1E37D26C00244D63 /* Frameworks */,
-				00E21DDC1E37D26C00244D63 /* CopyFiles */,
+				00EA93BC1E54876700284F3B /* Sources */,
+				00EA93BD1E54876700284F3B /* Frameworks */,
+				00EA93BE1E54876700284F3B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ConsoleApp;
-			productName = ConsoleApp;
-			productReference = 00E21DDE1E37D26C00244D63 /* ConsoleApp */;
+			name = TimeTest;
+			productName = TimeTest;
+			productReference = 00EA93C01E54876700284F3B /* TimeTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00E21DD61E37D26C00244D63 /* Project object */ = {
+		00EA93B81E54876700284F3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Pedro Brandão";
 				TargetAttributes = {
-					00E21DDD1E37D26C00244D63 = {
+					00EA93BF1E54876700284F3B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = U3A2WCJ8XS;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 00E21DD91E37D26C00244D63 /* Build configuration list for PBXProject "ConsoleApp" */;
+			buildConfigurationList = 00EA93BB1E54876700284F3B /* Build configuration list for PBXProject "TimeTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 00E21DD51E37D26C00244D63;
-			productRefGroup = 00E21DDF1E37D26C00244D63 /* Products */;
+			mainGroup = 00EA93B71E54876700284F3B;
+			productRefGroup = 00EA93C11E54876700284F3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00E21DDD1E37D26C00244D63 /* ConsoleApp */,
+				00EA93BF1E54876700284F3B /* TimeTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E21DDA1E37D26C00244D63 /* Sources */ = {
+		00EA93BC1E54876700284F3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EA93CF1E548ED100284F3B /* PocoTest.cpp in Sources */,
-				00EA93D21E54901F00284F3B /* Estudos.cpp in Sources */,
-				00E21DE21E37D26C00244D63 /* main.cpp in Sources */,
+				00EA93C41E54876700284F3B /* main.cpp in Sources */,
+				00EA93CC1E548D2B00284F3B /* estudos.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		00E21DE31E37D26C00244D63 /* Debug */ = {
+		00EA93C51E54876700284F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -205,9 +180,8 @@
 			};
 			name = Debug;
 		};
-		00E21DE41E37D26C00244D63 /* Release */ = {
+		00EA93C61E54876700284F3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E21DE91E37F50A00244D63 /* conanbuildinfo.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -246,7 +220,7 @@
 			};
 			name = Release;
 		};
-		00E21DE61E37D26C00244D63 /* Debug */ = {
+		00EA93C81E54876700284F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U3A2WCJ8XS;
@@ -254,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		00E21DE71E37D26C00244D63 /* Release */ = {
+		00EA93C91E54876700284F3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U3A2WCJ8XS;
@@ -265,25 +239,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E21DD91E37D26C00244D63 /* Build configuration list for PBXProject "ConsoleApp" */ = {
+		00EA93BB1E54876700284F3B /* Build configuration list for PBXProject "TimeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E21DE31E37D26C00244D63 /* Debug */,
-				00E21DE41E37D26C00244D63 /* Release */,
+				00EA93C51E54876700284F3B /* Debug */,
+				00EA93C61E54876700284F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00E21DE51E37D26C00244D63 /* Build configuration list for PBXNativeTarget "ConsoleApp" */ = {
+		00EA93C71E54876700284F3B /* Build configuration list for PBXNativeTarget "TimeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E21DE61E37D26C00244D63 /* Debug */,
-				00E21DE71E37D26C00244D63 /* Release */,
+				00EA93C81E54876700284F3B /* Debug */,
+				00EA93C91E54876700284F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00E21DD61E37D26C00244D63 /* Project object */;
+	rootObject = 00EA93B81E54876700284F3B /* Project object */;
 }
