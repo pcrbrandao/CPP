@@ -10,8 +10,10 @@
 
 #include <stdio.h>
 #include <time.h>
-#include "estudos.hpp"
 
+/**
+ * @brief Apenas faz uma pausa e usa difftime para encontrar a diferença entre os tempos
+ */
 void fazpausa(int segundos) {
     time_t hora_inicial;
     time_t hora_atual;
@@ -31,6 +33,9 @@ void fazpausa(int segundos) {
     printf("Acabado\n");
 }
 
+/**
+ * @brief Demonstra a diferença entre endereço e valor de ponteiros
+ */
 void ponteiro_test() {
     int a = 1, b = 2;
     int *i_ponteiro;
@@ -42,5 +47,5 @@ void ponteiro_test() {
     
     b = *i_ponteiro;
     printf("O valor de b é %d\n", b);
-    printf("Valor de i_ponteiro %x\n", i_ponteiro);
+    printf("Valor de i_ponteiro %d\n", i_ponteiro);
 }

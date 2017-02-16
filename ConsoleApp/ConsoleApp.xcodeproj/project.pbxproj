@@ -11,6 +11,7 @@
 		00E21DE21E37D26C00244D63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E21DE11E37D26C00244D63 /* main.cpp */; };
 		00EA93CF1E548ED100284F3B /* PocoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93CD1E548ED100284F3B /* PocoTest.cpp */; };
 		00EA93D21E54901F00284F3B /* Estudos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93D01E54901F00284F3B /* Estudos.cpp */; };
+		00EA93DE1E54A4EC00284F3B /* EstudosCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EA93DC1E54A4EC00284F3B /* EstudosCPP.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		00EA93CE1E548ED100284F3B /* PocoTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PocoTest.hpp; sourceTree = "<group>"; };
 		00EA93D01E54901F00284F3B /* Estudos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Estudos.cpp; sourceTree = "<group>"; };
 		00EA93D11E54901F00284F3B /* Estudos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Estudos.hpp; sourceTree = "<group>"; };
+		00EA93DC1E54A4EC00284F3B /* EstudosCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EstudosCPP.cpp; sourceTree = "<group>"; };
+		00EA93DD1E54A4EC00284F3B /* EstudosCPP.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EstudosCPP.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				00EA93CE1E548ED100284F3B /* PocoTest.hpp */,
 				00EA93D01E54901F00284F3B /* Estudos.cpp */,
 				00EA93D11E54901F00284F3B /* Estudos.hpp */,
+				00EA93DC1E54A4EC00284F3B /* EstudosCPP.cpp */,
+				00EA93DD1E54A4EC00284F3B /* EstudosCPP.hpp */,
 			);
 			path = ConsoleApp;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00EA93CF1E548ED100284F3B /* PocoTest.cpp in Sources */,
+				00EA93DE1E54A4EC00284F3B /* EstudosCPP.cpp in Sources */,
 				00EA93D21E54901F00284F3B /* Estudos.cpp in Sources */,
 				00E21DE21E37D26C00244D63 /* main.cpp in Sources */,
 			);
